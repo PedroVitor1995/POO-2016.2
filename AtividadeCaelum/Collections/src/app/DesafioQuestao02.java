@@ -20,6 +20,7 @@ public class DesafioQuestao02 {
 		}
 		
 		Collections.sort(numeros);
+		Collections.reverse(numeros);
 		
 		for(int i=0; i<total; i++){
 			System.out.println(numeros.get(i));
